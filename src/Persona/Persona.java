@@ -32,7 +32,17 @@ public class Persona {
 	
 	void saludar() {
 		System.out.println("Hola, te mando saludos");
+	}//cierre saludar
+	
+	
+	//tostring
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", telefono=" + telefono
+				+ ", email=" + email + "]";
 	}
+
+
 	//metodo principal
 	static void Main(String[]args) {
 		
